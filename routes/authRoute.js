@@ -40,6 +40,7 @@ async function signUpUser(req,res){
             status:'err',
         })
     }
+    
 }
 
 //signin req / login req****
