@@ -37,7 +37,7 @@ async function signUpUser(req,res){
     }
     else{
         res.json({
-            status:'err'
+            status:'err',
         })
     }
 }
