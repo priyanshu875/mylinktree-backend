@@ -26,8 +26,8 @@ const userModels=mongoose.model('usermodels',mongoose.Schema({
         type:String
     },
     userName:{
-        type:String,
-        unique:true
+        type:String
+        
     }
 }))
 

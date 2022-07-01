@@ -27,7 +27,7 @@ async function signUpUser(req,res){
     req.body.userName=userName;
     
     let result=await userModels.create(req.body);
-    // console.log(result);
+    console.log(result);
     console.log(req.body);
     if(result){
         res.json({
