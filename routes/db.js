@@ -20,12 +20,14 @@ const userModels=mongoose.model('usermodels',mongoose.Schema({
     },
     email:{
         type:String,
+        unique:true
     },
     password:{
         type:String
     },
     userName:{
-        type:String
+        type:String,
+        unique:true
     }
 }))
 
